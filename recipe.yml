@@ -1,0 +1,10 @@
+name: 'Bikeclub Media types'
+description: 'Recipe is installed/included in bikeclub-editors and bikeclub-media.'
+type: 'Media types'
+install:
+  - media
+  - crop
+config:
+  import:
+    media: '*'
+      
